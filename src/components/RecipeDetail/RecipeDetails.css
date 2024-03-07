@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+.recipe-detail-cointainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .recipe-detail-cointainer {
+        flex-direction: column;
+    }
+}
+
+.recipe-detail-cointainer:hover {
+    -webkit-box-shadow: 4px -1px 20px 0px rgba(82,27,65,0.64);
+    -moz-box-shadow: 4px -1px 20px 0px rgba(82,27,65,0.64);
+    box-shadow: 4px -1px 20px 0px rgba(82,27,65,0.64);
+}
+
+.recipe-detail-cointainer h2, section h2 {
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    color: teal;
+    margin-bottom: 20px
+}
+
+.steps-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+}
+
+.steps-wrapper h3 {
+    font-family: 'Inter', sans-serif;
+    color: teal;
+font-size: 15px;
+}
+
+.summary-container {
+    margin-top: 30px;
+}
+
+.summary-container p {
+    overflow: auto;
+}

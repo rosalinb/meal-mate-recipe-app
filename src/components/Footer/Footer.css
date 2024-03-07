@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+.footer-wrapper {
+    margin-top: 50px;
+    background-color: #FFF5F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (max-width: 768px) {
+    .footer-wrapper {
+        flex-direction: column;
+    }
+}
+
+.social-media-container,  .footer-info {
+    padding: 30px;
+    font-size: 13px;
+}
+
+span {
+    color: #38B2AC;
+}
+
+.footer-info h6, .social-media-container h3 {
+    color: #38B2AC;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-wrapper p {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.social-media-container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    color: #3182CE;
+    transition: 0.8s;
+}
+
+.social-media:hover {
+    color: #38B2AC;
+}
+
+.social-media-container h3:hover {
+    color: #3182CE;
+}

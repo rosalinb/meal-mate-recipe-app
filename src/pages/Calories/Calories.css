@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+
+.header-container {
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+section h2 {
+   font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+section p, h3 {
+     font-family: 'Inter', sans-serif;
+     margin-bottom:  10px;
+}
+
+section img {
+    border-radius: 50%;
+    width: 300px;
+}
+
+.calories-search-cointainer{
+    margin: 30px;
+    /* border: 2px solid red; */
+}
+
+
+.calories-search-cointainer h3{
+    margin: 40px 0;
+   
+}
+
+.button {
+  margin:  0;
+}
+
+
+
+/* CSS FOR MEAL LIST COMPONENT */
+
+.nutients {
+    text-align: center;
+}
+.nutients  h2 {
+    color: teal;
+    letter-spacing: 0.1rem;
+    margin-bottom: 10px
+}
+.nutients ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'Merriweather', serif;
+}
+.nutients ul li:hover {
+    color:teal
+}
+
+/* CSS FOR MEAL COMPONENT */
+
+.meal-cointainer-card {
+    margin: 30px;
+    border: 1px solid teal;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.8s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-align: center;
+
+}
+
+.meal-cointainer-card h3 {
+    color: teal;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
+
+.meal-cointainer-card img {
+    border-radius: 5px;
+}
+
+.meal-cointainer-card ul {
+    font-family: 'Inter', sans-serif;
+list-style: none;
+color: teal;
+font-size: 15px;
+}
+
+.meal-cointainer-card:hover {
+    -webkit-box-shadow: 4px -1px 20px 0px rgba(82,27,65,0.64);
+    -moz-box-shadow: 4px -1px 20px 0px rgba(82,27,65,0.64);
+    box-shadow: 4px -1px 20px 0px rgba(82,27,65,0.64);
+}
+
+
+
+/* .recipe-link {
+    font-size: 18px;
+    color:  #2C7A7B;
+
+}
+.recipe-link:hover {
+    color:  #2C7A7B;
+    text-decoration: underline;
+} */
+

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+.cuisine-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 768px) {
+    .cuisine-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.recipe-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 768px) {
+    .recipe-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.recipe-card {
+    padding: 15px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25px;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.recipe-card h3 {
+    color: teal;
+    /* font-family: 'Merriweather', serif; */
+    font-size: 15px;
+    
+}
+.recipe-card img {
+    width: 250px;
+    height: 150px;
+    border-radius: 20%;
+}
+.recipe-link {
+    font-size: 14px;
+    color:  #2C7A7B;
+
+}
+.recipe-link:hover {
+    color:  #2C7A7B;
+    text-decoration: underline;
+}
